@@ -61,18 +61,18 @@ After uploading the claims, you can approve them by clicking the "Approve Claims
 
 The generated MRF files will be displayed in the "Generated MRF Files" section.
 
-Dependencies
-Frontend
-react: The core React library for building the user interface.
-react-dom: React's DOM renderer.
-mobx: State management library used for the application’s global state.
-mobx-react-lite: React bindings for MobX.
-mantine/core: A component library for building modern UIs.
-ag-grid-react: A grid library for displaying claims data in tabular format.
-papaparse: A CSV parsing library to handle file uploads.
-Backend
-hono: A minimal and fast web framework for Node.js.
-zod: A TypeScript-first schema validation library.
-axios: HTTP client for making requests to the backend API from the frontend.
-fs: File system module to interact with the file system (used to save MRF files).
-path: Utility module to work with file and directory paths.
+## Dependencies
+# Frontend
+- react: The core React library for building the user interface.
+- react-dom: React's DOM renderer.
+- mobx: State management library used for the application’s global state.
+- mobx-react-lite: React bindings for MobX.
+- mantine/core: A component library for building modern UIs.
+- ag-grid-react: A grid library for displaying claims data in tabular format.
+- papaparse: A CSV parsing library to handle file uploads.
+# Backend
+- hono: A minimal and fast web framework for Node.js.
+- zod: A TypeScript-first schema validation library.
+- axios: HTTP client for making requests to the backend API from the frontend.
+- fs: File system module to interact with the file system (used to save MRF files).
+- path: Utility module to work with file and directory paths.
